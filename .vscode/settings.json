@@ -1,0 +1,17 @@
+{
+    "python.formatting.provider": "black",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "walletDB",
+            "database": "${workspaceFolder:djangosol}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dbt",
+            "database": "${workspaceFolder:djangosol}/db.sqlite3"
+        }
+    ]
+}
